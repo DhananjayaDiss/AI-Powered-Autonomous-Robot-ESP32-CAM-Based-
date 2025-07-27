@@ -1,0 +1,28 @@
+# Minimal requirements for ESP32-CAM AI Robot
+# Essential packages only
+
+# Core Python packages
+numpy==1.24.3
+opencv-python==4.8.0.76
+Pillow==10.0.0
+
+# Async and networking (for ESP32 communication)
+websockets==11.0.3
+asyncio==3.4.3
+
+# AI/ML - Lightweight versions
+ultralytics==8.0.196  # YOLO v8
+mediapipe==0.10.3     # Pose detection
+tensorflow-lite==2.13.0  # Lightweight TensorFlow
+
+# Data handling
+pandas==2.0.3
+
+# Audio (optional - can be removed if not using audio feedback)
+pyttsx3==2.90
+
+# System utilities
+psutil==5.9.5
+
+# Development
+pytest==7.4.0
